@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/gbrmasjidrayapku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/masjidraya"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/txtmasjidrayapku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masjid Raya Pekanbaru"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/gbrmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/gbrmasjidrayapku" />
+
+            <Button
+                android:id="@+id/btnmasjidrayapku"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Lihat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="@+id/txtmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/txtmasjidrayapku"/>
+
+            <ImageView
+                android:id="@+id/gbrmasjidrayariau"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/masjidrayariau"
+                app:layout_constraintStart_toStartOf="@+id/btnmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/btnmasjidrayapku" />
+
+            <TextView
+                android:id="@+id/txtmasjidrayariau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masjid Raya Riau"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/gbrmasjidrayariau"
+                app:layout_constraintTop_toBottomOf="@+id/gbrmasjidrayariau" />
+
+            <Button
+                android:id="@+id/btnmasjidrayariau"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Lihat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="@+id/txtmasjidrayariau"
+                app:layout_constraintTop_toBottomOf="@+id/txtmasjidrayariau"/>
+
+            <ImageView
+                android:id="@+id/gbrmasjidagungannur"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/masjidagungannur"
+                app:layout_constraintStart_toStartOf="@+id/btnmasjidrayariau"
+                app:layout_constraintTop_toBottomOf="@+id/btnmasjidrayariau" />
+
+            <TextView
+                android:id="@+id/txtmasjidagungannur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masjid Agung An-Nur"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/gbrmasjidagungannur"
+                app:layout_constraintTop_toBottomOf="@+id/gbrmasjidagungannur" />
+
+            <Button
+                android:id="@+id/btnmasjidagungannur"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Lihat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="@+id/txtmasjidagungannur"
+                app:layout_constraintTop_toBottomOf="@+id/txtmasjidagungannur"/>
+
+            <ImageView
+                android:id="@+id/gbrmasjidagungarrahman"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/masjidagungarrahman"
+                app:layout_constraintStart_toStartOf="@+id/btnmasjidagungannur"
+                app:layout_constraintTop_toBottomOf="@+id/btnmasjidagungannur" />
+
+            <TextView
+                android:id="@+id/txtmasjidagungarrahman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masjid Agung Ar-Rahman"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/gbrmasjidagungarrahmanr"
+                app:layout_constraintTop_toBottomOf="@+id/gbrmasjidagungarrahman" />
+
+            <Button
+                android:id="@+id/btnmasjidagungarrahman"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Lihat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="@+id/txtmasjidagungarrahman"
+                app:layout_constraintTop_toBottomOf="@+id/txtmasjidagungarrahman"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

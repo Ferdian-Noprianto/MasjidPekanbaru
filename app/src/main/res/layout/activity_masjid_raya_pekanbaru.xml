@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MasjidRayaPekanbaru">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="-36dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gbrmasjidrayapku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/masjidraya"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtmasjidrayapku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama   : Masjid Raya Pekanbaru"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/gbrmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/gbrmasjidrayapku" />
+
+            <TextView
+                android:id="@+id/txtjenismasjidrayapku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis    : Masjid Raya"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/txtjenismasjidrayapku" />
+
+            <TextView
+                android:id="@+id/txtalamatmasjidrayapku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat : Jl. Senapelan No.128, Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/txtjenismasjidrayapku" />
+
+            <Button
+                android:id="@+id/btnwebmasjidrayapku"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Cari di Google"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="@+id/txtalamatmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/txtalamatmasjidrayapku"/>
+
+            <Button
+                android:id="@+id/btnpetamasjidrayapku"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Lihat Peta"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="@+id/btnwebmasjidrayapku"
+                app:layout_constraintTop_toBottomOf="@+id/btnwebmasjidrayapku"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
